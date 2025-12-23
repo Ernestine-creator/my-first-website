@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-style: Helvetica;
+}
+
+body {
+    background-color:#f0f0f0;
+    color: #333333;
+    line-height:1.6;
+    padding: 1rem;
+}
+
+header{
+    background-color: #8e3830;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-bottom:1rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header_logo p {
+    font-size: 1.5rem;
+    font-family: "BBH Bartle",static;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-family:"saira",sans-serif;
+    font-size:1.5rem;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.header_btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header_btn{
+    background-color: #f0f0f0;
+    color: #8e3830;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:1.2rem;
+    font-family: "saira",sans-serif;
+}
+
+main section {
+width: 100%;
+display: flex;
+align-items: center;
+background-color: burlywood;
+border-radius:10px;
+margin-bottom: 2rem;
+}
+
+.main_home{
+    background-image:linear-gradient(rgba(254, 190, 190, 0.452),rgba(0,0,0,0.5)), url("https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=");
+    background-size: cover;
+    background-position:center;
+    height:650px;
+}
+
+.hero-img{
+    width: 50%;
+    padding: 1rem;
+}
+
+.hero-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-text{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text h1{
+    font-size:4rem;
+    font-family: BBH Bartle,static;
+    text-align: center;
+    color: thistle;
+}
+
+.hero-text p{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-family:'Saira',sans-serif;
+    color: white;
+}
+
+.hero-btn{
+    background-color: #8e3830;
+    color: #f0f0f0;
+    border: none;
+    padding:0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+
+.hero-btn:hover{
+    background-color: #f0f0f0;
+    color: #8e3830;
+    border: 2px solid #8e3830;
+    transition: 1s;
+}
+
+.main_about{
+    flex-direction:column;
+    padding: 2rem 0;
+    gap: 2rem;
+    background-color: #8e3830;
+    margin:2rem 0;
+    width:100%;
+}
+
+.main_about h1{
+    font-size:3rem;
+    margin-bottom: 1rem;
+    font-family:BBH Bartle;
+    text-decoration: underline;
+    color: thistle;
+}
+
+.about_card{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: burlywood;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    color : white;
+}
+
+.card h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: "saira";
+    color: peru;
+}
+
+.card p{
+    font-size: 1rem;
+    font-family: "Saira",sans-serif;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius: 0px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.main_services{
+flex-direction: column;
+padding:2rem 0;
+gap: 2rem;
+background-color: #8e3830;    
+}
+
+.main_services h1{
+font-size: 3rem;
+margin-bottom: 1rem;
+font-family: BBH Bartle;
+text-decoration: underline;
+text-align: center;
+color: thistle;
+}
+
+.services_list{
+    width:100%;
+    display: flex;
+    gap:2rem;
+    justify-content: space-around;
+    margin:0 5rem;
+}
+
+.service_item{
+    background-color:burlywood;
+    border-radius: 10px;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.service_item h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family:"saira";
+}
+
+.service_item p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family:"saira"
+}
+
+.services_btn{
+background-color: #8e3830;
+color: white;
+border: none;
+padding:0.5rem 1rem;
+cursor: pointer;
+border-radius: 10px;
+font-size: 1rem;
+font-family: "saira";
+}
+
+.services_btn:hover{
+background-color: transparent;
+color: brown;
+border: 2px solid #333333;
+transition: 0.3s;
+}
+
+.main_contacts{
+    flex-direction: column;
+    padding:2rem 0;
+    gap: 2rem;
+    background-color: #8e3830;
+}
+
+.main_contacts h1{
+font-size: 3rem;
+margin-bottom: 1rem;
+font-family: BBH Bartle;
+text-decoration: underline;
+text-align: center;
+color: thistle;}
+
+.contact_form{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact_form input, .contact_form textarea{
+padding: 0.75rem 0;
+border: 1px solid;
+color: wheat;
+border-radius: 10px;
+font-size: 1rem;
+font-family: "saira";
+}
+
+.contact_form label{
+    font-size: 1.75rem;
+    color: thistle;
+}
+
+.contact_form button{
+    background-color: wheat;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    align-self: center;
+}
+
+.contact_form button:hover{
+    background-color:burlywood;
+    color:#8e3830;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+footer{
+    background-color:burlywood;
+    color:#f0f0f0;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+footer p{
+    margin-bottom: 0.5rem;
+    font-family: "saira";
+    font-size: 1.5rem;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social_icons{
+    width: 25px;
+    height: 25px;
+}
+
+.hamburger-menu{
+    display: none;
+    width: 45px;
+    height: 35px;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger-menu:hover{
+    background-color: #8e3830;
+    border: 1px solid #f0f0f0;
+}
+
+.bar{
+    background-color: white;
+}
+
+.hamburger-menu:active{
+    background-color: #d0d0d0;
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: #8e3830;
+    margin: 2px;
+    border-radius: 2px;
+    align-self: center;
+}
+
+@media(max-width:1024px){
+    .hero-img{
+        display: none;
+    }
+    .hero-text{
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        background-color: #8e3830;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        width: 150px;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    nav ul li{
+        margin-bottom: 1rem;
+    }
+    .header_btn{
+        display: none;
+    }
+    .services_list{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .services_list h2{
+        font-size: 1.25rem;
+    }
+    .hamburger-menu{
+        display: flex;
+    }
+    .hamburger-menu:hover{
+        background-color: #8e3830;
+        border: #f0f0f0;
+        .bar{
+            background-color: white;
+        }
+    }
+    .card {
+        flex-wrap: wrap;
+        gap: 0;
+        margin: 0 1rem;
+    }
+}
+
+
+@media (max-width:460px){
+    .header_btn{
+        display: none;
+    }
+    .hero-img,.hero-text{
+        width: 100%;
+    }
+    .hero-text h1, .main_about h1, .main_services h1, .main_contacts h1{
+        font-size: 1.5rem;
+    }
+    .hero-text p{
+        font-size: 1.25rem;
+    }
+    .about_card,.services_list{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .card,.service_item{
+        width: 75%;
+    }
+    .contact_form{
+        align-self: center;
+        width: 75%;
+        padding: 0 1rem;
+    }
+}
